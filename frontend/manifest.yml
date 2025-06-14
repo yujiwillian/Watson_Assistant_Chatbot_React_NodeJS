@@ -1,0 +1,6 @@
+applications:
+    - memory: 64M
+      disk_quota: 32M
+      path: .
+      buildpacks:
+          - https://github.com/cloudfoundry/staticfile-buildpack#v1.4.41
