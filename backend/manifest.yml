@@ -1,0 +1,7 @@
+applications:
+    - command: yarn start:prod
+      disk_quota: 256M
+      memory: 128M
+      path: .
+      buildpacks:
+          - nodejs_buildpack
