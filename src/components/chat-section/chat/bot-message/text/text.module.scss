@@ -1,0 +1,67 @@
+@import '../../../../../assets/colors/colors.scss';
+
+.messageContainer {
+    display: flex;
+}
+
+.messageBallon {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px 0;
+    max-width: 448px;
+    min-width: 1300px;
+    border-radius: 20px 20px 20px 0;
+    color: $black;
+    background-color: rgb(166, 219, 166);
+
+    & p {
+        font-size: 18px;
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+
+    @media (max-width: 960px) {
+        & p {
+            font-size: 16px;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+    }
+}
+
+.messageTail:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    border: 18px solid transparent;
+    border-right-color: $gray-bot-message;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: 1.5px;
+    margin-left: -18px;
+}
+
+.messageAvatar {
+    align-self: flex-end;
+    margin: 10px 32px 40px 0;
+}
+
+.messageTime {
+    color: $gray-time-message;
+    font-size: 14px;
+    margin-bottom: 16px;
+
+    @media (max-width: 960px) {
+        font-size: 10px;
+    }
+}
+
+.messageContent {
+    display: flex;
+    flex-direction: column;
+}
