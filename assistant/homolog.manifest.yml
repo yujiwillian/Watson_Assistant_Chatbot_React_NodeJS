@@ -1,0 +1,9 @@
+applications:
+    - memory: 128M
+      name: kndrl-ms-sp-assistant-api-dev
+      route: kndrl-ms-sp-assistant-api-dev.mybluemix.net
+      disk_quota: 256M
+      command: npm start
+      path: .
+      buildpacks:
+          - nodejs_buildpack
