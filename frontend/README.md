@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# front
+
 Front End Chatbot
 =======
 # MTS - Front
