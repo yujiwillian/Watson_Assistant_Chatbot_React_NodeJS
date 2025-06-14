@@ -1,0 +1,13 @@
+@import 'assets/colors/colors.scss';
+
+.chatContainer {
+    flex-direction: column;
+    overflow-y: scroll;
+    background-color: $white;
+    height: 100%;
+    padding: 64px 28px 18px 32px;
+
+    @media (max-width: 960px) {
+        padding: 24px 28px 18px 32px;
+    }
+}

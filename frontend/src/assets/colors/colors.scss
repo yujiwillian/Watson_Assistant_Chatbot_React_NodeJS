@@ -1,0 +1,29 @@
+$white: #fff;
+$gray-bot-message: #e9e9e9;
+$gray-user-message: #c6c6c6;
+$gray-time-message: #525252;
+$gray-modal-content: #757575;
+$gray-media-modal-border: #979797;
+$gray-media-modal-background: #d8d8d8;
+$black: #000;
+
+$red: #1f6d31;
+$red-light: #51b04a;
+$purple: #52518a;
+
+$red-reset: #40d87d;
+
+:export {
+    white: $white;
+    gray-bot-message: $gray-bot-message;
+    gray-user-message: $gray-user-message;
+    gray-time-message: $gray-time-message;
+    black: $black;
+    red: $red;
+    red-light: $red-light;
+    purple: $purple;
+    red-reset: $red-reset;
+    gray-modal-content: $gray-modal-content;
+    gray-media-modal-border: $gray-media-modal-border;
+    gray-media-modal-background: $gray-media-modal-background;
+}

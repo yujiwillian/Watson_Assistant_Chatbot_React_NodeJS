@@ -1,0 +1,39 @@
+@import 'assets/colors/colors.scss';
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+.button {
+    cursor: pointer;
+    padding: 8px 10px;
+    min-height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: $red;
+    border: 1px solid $red;
+    background: $white;
+    min-width: 128px;
+
+    &:hover {
+        color: $white;
+        background-color: $red;
+    }
+
+    &Disabled {
+        cursor: not-allowed;
+        color: $gray-time-message;
+        background-color: $gray-user-message;
+        border: 1px solid transparent;
+        margin: 0 16px 16px 0;
+        padding: 8px 10px;
+        min-height: 128px;
+        border-radius: 20px;
+        font-size: 16px;
+        min-width: 128px;
+    }
+}

@@ -1,0 +1,91 @@
+@import 'assets/colors/colors.scss';
+
+.inputContainer {
+    display: flex;
+    position: relative;
+    margin: 0 24px 18px 32px;
+    z-index: 1;
+}
+
+.inputElement {
+    height: 56px;
+    width: 90%;
+    padding: 0 18px;
+    border: 2px solid $red;
+    background-color: $white;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-right: 34px;
+
+    & ::placeholder {
+        color: $gray-bot-message;
+    }
+
+    &Disabled {
+        height: 56px;
+        width: 90%;
+        padding: 0 18px;
+        border: 2px solid $red;
+        background-color: $gray-bot-message;
+        cursor: not-allowed;
+        font-size: 18px;
+        border-radius: 30px;
+        margin-right: 34px;
+        @media (max-width: 960px) {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 960px) {
+        width: 100%;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 30px;
+    border: 2px solid $gray-bot-message;
+    background-color: $white;
+
+    &Disabled {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        width: 10%;
+        border-radius: 30px;
+        background-color: $gray-bot-message;
+        cursor: not-allowed;
+        border: 2px solid $gray-bot-message;
+
+        @media (max-width: 960px) {
+            width: 83px;
+            height: 56px;
+            & span {
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 960px) {
+        width: 83px;
+        height: 56px;
+        & span {
+            display: none;
+        }
+    }
+}
+
+.buttonText {
+    font-size: 18px;
+    color: $red;
+}
+
+.submitIcon {
+    height: 19px;
+    width: 11px;
+}

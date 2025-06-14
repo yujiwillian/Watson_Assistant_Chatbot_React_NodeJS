@@ -1,0 +1,50 @@
+@import '../../assets/colors/colors.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // padding: 14px 16px;
+    color: $white;
+    font-weight: bold;
+    background-image: linear-gradient(
+        to right,
+        $red-light 0%,
+        $red 26%,
+        $red 65%,
+        $purple 100%
+    );
+}
+
+.inside {
+    display: flex;
+    width: calc(100% - 45px);
+    justify-content: space-between;
+    padding: 14px 16px;
+}
+
+.workWarning {
+    align-self: center;
+    color: $white;
+    font-weight: bold;
+}
+
+.restartChat {
+    cursor: pointer;
+    background: transparent;
+    font-size: 18px;
+    width: 48px;
+    height: 48px;
+    align-content: center;
+    justify-content: center;
+    @media (min-width: 960px) {
+        display: none;
+    }
+}
+
+.renew {
+    width: 24px;
+    height: 24px;
+    fill: $white;
+    vertical-align: middle;
+}
