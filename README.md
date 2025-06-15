@@ -12,6 +12,7 @@ Windows: https://forum.casadodesenvolvedor.com.br/topic/44475-como-instalar-o-nv
 
 ### 4. Install git
 MACOS: https://git-scm.com/download/mac
+
 Windows: https://git-scm.com/downloads/win
 
 ### 5. Download all the repositories
