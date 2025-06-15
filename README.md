@@ -76,7 +76,7 @@ And to run:
 yarn start
 
 
-The app running:
+Preview:
 <img width="1512" alt="Captura de Tela 2025-06-14 às 15 37 25" src="https://github.com/user-attachments/assets/6cb0fef7-5299-49bd-9388-512569af78be" />
 
 
