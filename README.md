@@ -7,6 +7,7 @@ https://nodejs.org/en
 
 ### 2. Install NVM
 MACOS: https://sukiphan.medium.com/how-to-install-nvm-node-version-manager-on-macos-d9fe432cc7db
+
 Windows: https://forum.casadodesenvolvedor.com.br/topic/44475-como-instalar-o-nvm-windows/
 
 ### 4. Install git
@@ -36,40 +37,40 @@ And turn on.
 ### 11. To run backend, assistant and frontend:
 Open 3 new terminals and type:
 
-#### nvm install 18
+##### nvm install 18
 
 To use node version: 
 
-#### nvm use 18
+##### nvm use 18
 
 ### Backend:
-#### cd backend
-#### npm install -g @nestjs/cli
-#### npm cache clean --force
-#### rm -rf node_modules package-lock.json
-#### npm install
+##### cd backend
+##### npm install -g @nestjs/cli
+##### npm cache clean --force
+##### rm -rf node_modules package-lock.json
+##### npm install
 
 And to run:
-#### npm start
+##### npm start
 
 ### Assistant:
-#### cd assistant
-#### npm install -g @nestjs/cli
-#### npm cache clean --force
-#### rm -rf node_modules package-lock.json
-#### npm install
+##### cd assistant
+##### npm install -g @nestjs/cli
+##### npm cache clean --force
+##### rm -rf node_modules package-lock.json
+##### npm install
 
 And to run:
-#### npm start
+##### npm start
 
 ### Frontend:
-#### cd frontend:
-#### nvm install 14.17
-#### nvm use 14.17
-#### npm install -g yarn
+##### cd frontend:
+##### nvm install 14.17
+##### nvm use 14.17
+##### npm install -g yarn
 
 And to run:
-#### yarn start
+##### yarn start
 
 
 Preview:
@@ -83,10 +84,10 @@ Preview:
 Open a new terminal and go to the project directory: exemple: cd Downloads/Chatbot
 
 Run:
-#### pip install proxy.py
+##### pip install proxy.py
 
 It will install the proxy. When finished, run the code to initiate:
-#### proxy
+##### proxy
 
 In the backend/.env you'll do:
 
