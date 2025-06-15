@@ -6,20 +6,21 @@ https://nodejs.org/en
 2. Install NVM
 MACOS:
 https://sukiphan.medium.com/how-to-install-nvm-node-version-manager-on-macos-d9fe432cc7db
+
 Windows: 
 https://forum.casadodesenvolvedor.com.br/topic/44475-como-instalar-o-nvm-windows/
 
-3. Install git
+4. Install git
 MACOS: https://git-scm.com/download/mac
 Windows: https://git-scm.com/downloads/win
 
-4. Download all the repositories
+5. Download all the repositories
 
-5. In frontend/.env.example, change the .env.example to .env
+6. In frontend/.env.example, change the .env.example to .env
    
-6. In backend/.env.example, put the credencials of your Watson Assistant project and save as .env.
+7. In backend/.env.example, put the credencials of your Watson Assistant project and save as .env.
 
-7. If there's no authentication, leaves the lines 69 to 80 as comments: 
+8. If there's no authentication, leaves the lines 69 to 80 as comments: 
 Path: frontend > src > components > app > app.js
  
 ![image](https://github.com/user-attachments/assets/96f758f6-00a8-4637-a917-fa0c9961231c)
