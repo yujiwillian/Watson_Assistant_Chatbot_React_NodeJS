@@ -80,7 +80,7 @@ Preview:
 
 
 ## Proxy – If you have a integration with a system to open issue / requests
-(Need to install Python, if you don't have it) 
+(Need to install Python, if you don't have it: https://www.python.org/downloads/) 
 
 Open a new terminal and go to the project directory: exemple: cd Downloads/Chatbot
 
