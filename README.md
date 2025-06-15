@@ -44,7 +44,7 @@ To use node version:
 
 ##### nvm use 18
 
-### Backend:
+## Backend:
 ##### cd backend
 ##### npm install -g @nestjs/cli
 ##### npm cache clean --force
@@ -54,7 +54,7 @@ To use node version:
 And to run:
 ##### npm start
 
-### Assistant:
+## Assistant:
 ##### cd assistant
 ##### npm install -g @nestjs/cli
 ##### npm cache clean --force
@@ -64,7 +64,7 @@ And to run:
 And to run:
 ##### npm start
 
-### Frontend:
+## Frontend:
 ##### cd frontend:
 ##### nvm install 14.17
 ##### nvm use 14.17
