@@ -1,3 +1,5 @@
+# Watson Assistant Chatbot App React
+
 Steps to run this app:
 
 1. Download Node
