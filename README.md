@@ -23,11 +23,13 @@ Windows: https://git-scm.com/downloads/win
 8. If there's no authentication, leaves the lines 69 to 80 as comments: 
 Path: frontend > src > components > app > app.js
  
-![image](https://github.com/user-attachments/assets/96f758f6-00a8-4637-a917-fa0c9961231c)
+ ![image](https://github.com/user-attachments/assets/fceed3cc-d1e6-4f54-b8cc-04e12d58010a)
+
 
 8. If there's no authentication, in frontend > src > contexts > user-context.js line 8, change: isLoaded: true
  
-![image](https://github.com/user-attachments/assets/cd33b265-8ebe-42ea-8ff9-bc58976eb489)
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/894309e1-1a31-46b6-b3f8-98af4d7b7daa" />
+
 
 9. Install CORS plugin on Firefox: https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/versions/
 And turn on.
