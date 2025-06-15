@@ -1,43 +1,42 @@
 # Watson Assistant Chatbot App React
 
-Steps to run this app:
+## Steps to run this app:
 
-1. Download Node
+### 1. Download Node
 https://nodejs.org/en
 
-2. Install NVM
+### 2. Install NVM
 MACOS:
 https://sukiphan.medium.com/how-to-install-nvm-node-version-manager-on-macos-d9fe432cc7db
 
 Windows: 
 https://forum.casadodesenvolvedor.com.br/topic/44475-como-instalar-o-nvm-windows/
 
-4. Install git
+### 4. Install git
 MACOS: https://git-scm.com/download/mac
 Windows: https://git-scm.com/downloads/win
 
-5. Download all the repositories
+### 5. Download all the repositories
 
-6. In frontend/.env.example, change the .env.example to .env
+### 6. In frontend/.env.example, change the .env.example to .env
    
-7. In backend/.env.example, put the credencials of your Watson Assistant project and save as .env.
+### 7. In backend/.env.example, put the credencials of your Watson Assistant project and save as .env.
 
-8. If there's no authentication, leaves the lines 69 to 80 as comments: 
+### 8. If there's no authentication, leaves the lines 69 to 80 as comments: 
 Path: frontend > src > components > app > app.js
  
 <img width="412" alt="Captura de Tela 2025-06-14 às 22 24 53" src="https://github.com/user-attachments/assets/1dac9552-47fa-47f2-8b8f-58737d15611d" />
 
 
-
-8. If there's no authentication, in frontend > src > contexts > user-context.js line 8, change: isLoaded: true
+### 9. If there's no authentication, in frontend > src > contexts > user-context.js line 8, change: isLoaded: true
  
 <img width="473" alt="Captura de Tela 2025-06-14 às 22 27 30" src="https://github.com/user-attachments/assets/cb8385c3-047e-450e-8f33-f66668ee5518" />
 
 
-9. Install CORS plugin on Firefox: https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/versions/
+### 10. Install CORS plugin on Firefox: https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/versions/
 And turn on.
 
-10. To run backend, assistant and frontend:
+### 11. To run backend, assistant and frontend:
 Open 3 new terminals and type:
 
 "nvm install 18"
@@ -46,7 +45,7 @@ To use node version:
 
 "nvm use 18"
 
-Backend:
+### Backend:
 cd backend
 npm install -g @nestjs/cli
 npm cache clean --force
@@ -56,7 +55,7 @@ npm install
 And to run:
 npm start
 
-Assistant:
+### Assistant:
 cd assistant
 npm install -g @nestjs/cli
 npm cache clean --force
@@ -66,7 +65,7 @@ npm install
 And to run:
 npm start
 
-Frontend:
+### Frontend:
 cd frontend:
 nvm install 14.17
 nvm use 14.17
@@ -81,7 +80,7 @@ Preview:
 
 
 
-Proxy – If you have a integration with a system to open issue / requests
+## Proxy – If you have a integration with a system to open issue / requests
 (Need to install Python, if you don't have it) 
 
 Open a new terminal and go to the project directory: exemple: cd Downloads/Chatbot
