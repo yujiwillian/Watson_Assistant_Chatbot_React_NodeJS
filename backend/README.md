@@ -8,6 +8,8 @@ Built with [NestJs](https://github.com/nestjs/nest) framework using express.
 
 To run the app follow the steps bellow:
 
+1. Change the .env.example to your project credencials
+
 ### Development:
 
 ```bash
